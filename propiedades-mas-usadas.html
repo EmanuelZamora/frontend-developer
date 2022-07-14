@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position:absolute;
+            background-color: rgb(37, 40, 43);
+        }
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            width: 200px;
+            height:250px;
+            background-color: rgb(20, 22, 27);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .cajanombre{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 200px;
+            height: 91px;
+            background-color: rgb(37, 40, 43);
+            top: 100px;
+        }
+        .cajanombre img {
+            margin: 2%;
+            width: 45%;
+            border-radius: 5px;
+        }
+        .cajanombre :nth-child(2){
+            color: white;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="cajanombre">
+                <img src="https://i.pinimg.com/originals/2e/c5/b4/2ec5b4cba66294423c68b39b9be98ee2.jpg" alt="">
+                <p class="nick">Fauce</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
